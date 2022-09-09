@@ -1,0 +1,352 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.img {
+    width: 100%;
+}
+
+.red {
+    color: #cb1623;
+}
+
+.arrow_icon::after {
+    font-family: 'icomoon';
+    float: right;
+    content: '\e91e';
+    margin-left: 6px;
+}
+
+/* 快捷栏 */
+.shortcut {
+    height: 31px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.shortcut i {
+    line-height: 31px;
+}
+
+.shortcut .left a {
+    line-height: 31px;
+    margin-left: 14px;
+}
+
+.shortcut a:hover {
+    color: #cb1623;
+}
+
+.shortcut li {
+    float: left;
+    line-height: 31px;
+}
+
+.shortcut ul li:nth-child(2n) {
+    height: 12px;
+    width: 1px;
+    background-color: #666;
+    margin: 9px 10px 0;
+}
+
+.shortcut .arrow_icon:hover {
+    color: #cb1623;
+    cursor: pointer;
+}
+
+/* 头部 */
+header {
+    margin-top: 27px;
+}
+
+header .w {
+    position: relative;
+    height: 55px;
+}
+
+header .w .pic {
+    float: left;
+    font-size: 0px;
+}
+
+header .w .search {
+    position: absolute;
+    left: 347px;
+    height: 32px;
+    width: 537px;
+
+}
+
+header .w .search input {
+    float: left;
+    height: 32px;
+    width: 455px;
+    background-color: #fff;
+    border: 2px solid #cb1623;
+    text-indent: 1em;
+}
+
+header .w .search button {
+    float: left;
+    height: 32px;
+    width: 80px;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #cb1623;
+    background-color: #cb1623;
+}
+
+header .hotword {
+    position: absolute;
+    top: 40px;
+    left: 347px;
+}
+
+header .hotword li {
+    float: left;
+    margin: 0 12px;
+    font-size: 12px;
+}
+
+.shoppingcart {
+    position: absolute;
+    left: 996px;
+}
+
+.shoppingcart a {
+    position: relative;
+    display: block;
+    width: 140px;
+    height: 34px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    line-height: 34px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.shoppingcart a::before {
+    position: absolute;
+    left: 18px;
+    font-family: 'icomoon';
+    font-size: 15px;
+    color: #cb1623;
+    content: '\e93a';
+}
+
+.shoppingcart a::after {
+    position: absolute;
+    right: 18px;
+    font-family: 'icomoon';
+    font-size: 16px;
+    color: #666;
+    content: '\e920';
+}
+
+.shoppingcart a:hover::after {
+    color: #cb1623;
+}
+
+.shoppingcart a .count {
+    position: absolute;
+    bottom: 25px;
+    left: 104px;
+    padding: 0px 5px;
+    height: 14px;
+    border-radius: 7px 7px 7px 0;
+    background-color: #e60012;
+    font-size: 9px;
+    line-height: 14px;
+    color: #fff;
+}
+
+/* 导航栏 */
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #cb1623;
+    line-height: 47px;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.nav .w .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+}
+
+.nav .w .dropdown .dd {
+    /* display: none; */
+    height: 466px;
+    background-color: #c81623;
+    text-align: left;
+}
+
+.dropdown .dd li {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+    padding-left: 10px;
+}
+
+.dropdown .dd li::after {
+    float: right;
+    margin-right: 10px;
+    content: '\e920';
+    font-family: 'icomoon';
+    font-size: 14px;
+}
+
+.dropdown .dd li:hover {
+    background-color: #fff;
+    color: #cb1623;
+}
+
+.dropdown .dd li:hover a {
+    color: #cb1623;
+}
+
+.dropdown .dd li a:hover {
+    text-decoration: underline;
+}
+
+.dropdown .dd li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav .w .navitem li {
+    float: left;
+}
+
+.nav .w .navitem li a {
+    padding: 0 28px;
+}
+
+/* 底部 */
+.footer {
+    height: 417px;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+}
+
+.footer .mod_service {
+    height: 108px;
+    border-bottom: 1px solid#ededed;
+}
+
+.footer .mod_service li {
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 108px;
+    padding: 35px 18px 28px 93px;
+}
+
+.footer .mod_service li .icon {
+    position: absolute;
+    top: 30px;
+    left: 36px;
+    height: 49px;
+    width: 49px;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.footer .mod_service li .ic1 {
+    background-position: -253px -3px;
+}
+
+.footer .mod_service li .ic2 {
+    background-position: -255px -54px;
+}
+
+.footer .mod_service li .ic3 {
+    background-position: -257px -106px;
+}
+
+.footer .mod_service li .ic4 {
+    background-position: -258px -157px;
+}
+
+.footer .mod_service li .ic5 {
+    background-position: -258px -209px;
+}
+
+.mod_help {
+    height: 188px;
+    border-bottom: 1px solid #ededed;
+
+}
+
+.mod_help .text_box {
+    float: left;
+}
+
+.mod_help .text_box>li {
+    float: left;
+    padding: 20px 85px 0 35px;
+}
+
+.mod_help .code_box {
+    float: right;
+    margin-right: 76px;
+}
+
+.mod_help .code_box h3 {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.mod_help .code_box p {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.mod_copyright li {
+    float: left;
+}
+
+.mod_copyright ul {
+    margin: 16px 100px;
+}
+
+.mod_copyright li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    background-color: #999999;
+}
+
+.mod_copyright li a {
+    padding: 0 14px;
+    font-size: 12px;
+}
+
+.mod_copyright p {
+    text-align: center;
+    font-size: 12px;
+}

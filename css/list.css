@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+header .sk {
+    position: absolute;
+    left: 185px;
+    top: 10px;
+    height: 32px;
+    width: 90px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 14px;
+}
+
+.nav .sk_list {
+    float: left;
+    height: 45px;
+}
+
+.nav li {
+    float: left;
+}
+
+.sk_list li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 27px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+.sk_list li a:hover {
+    color: #b1191a;
+}
+
+.nav .sk_con {
+    float: right;
+    margin-right: 40px;
+}
+
+.sk_con li a {
+    position: relative;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 23px;
+    font-size: 14px;
+}
+
+
+.sk_con li:last-child a::after {
+    position: absolute;
+    content: "\e91e";
+    font-family: 'icomoon';
+    top: 2px;
+    right: 5px;
+}
+
+/* 主要内容 */
+.sk_bd ul {
+    width: 1300px;
+}
+
+.sk_bd li {
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    border: 1px solid #fff
+}
+
+.sk_bd li:hover {
+    border: 1px solid #b1191a;
+}
+
+.sk_bd li .pic {
+    text-align: center;
+}
+
+.sk_bd li .text {
+    padding: 0 10px;
+}
+
+.text .price {
+    margin-top: 5px;
+}
+
+.text .price i {
+    font-size: 22px;
+    color: #e60012;
+}
+
+.text .price em {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #a4a4a4;
+    margin-left: 10px;
+}
+
+.sk_bd li p {
+    font-size: 14px;
+}
+
+.sk_bd .remain {
+    margin-top: 12px;
+    height: 16px;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.remain i {
+    color: #e12228;
+}
+
+.sk_bd .loging {
+    margin-top: 5px;
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #e60012;
+    border-radius: 6px;
+}
+
+.loging .fill {
+    height: 100%;
+    width: 87%;
+    background-color: #e60012;
+}
+
+.sk_bd button {
+    margin-top: 13px;
+    height: 50px;
+    width: 290px;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #fff;
+}
